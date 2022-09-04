@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Google</title>
+		<link rel="stylesheet" href="adv_styles.css">
+	</head>
+
+	<body>
+		<nav id="links" style="justify-content: space-between;">
+			<ul>
+				<img src="img/google_logo.png" alt="Google" width="74">
+			</ul>	
+			<ul>
+				<a href="google.html">Google Search </a>
+				<a href="image_search.html">Images </a>
+				<a href="#"><button id="sign_in">Sign In</button></a>
+			</ul>
+		</nav>
+
+		<label id="adv_head">Advanced Search</label>
+		
+		<hr style="margin-top:2em">
+		<br><br><br>
+		
+		<form action="https://google.com/search" method="GET" name="f">
+			<span>Find pages with...</span>
+			<!-- <div style="margin-top:30px">
+				<label for="as_q">all these words:</label>
+				<input type="text" value="" name="as_q">
+			</div>
+
+			<div><label for="as_epq">this exact word or phrase:</label>
+				<input type="text" value="" name="as_epq">
+			</div>
+
+			<div><label for="as_epq">any of these words:</label>
+				<input type="text" value="" name="as_oq">
+			</div>
+
+			<div><label for="as_epq">none of these words:</label>
+				<input type="text" value="" name="as_eq">
+			</div> -->
+			<section>
+			<div id="search-options">
+				<label for="as_q">all these words</label>
+				<label for="as_epq">this exact word or phrase</label>
+				<label for="as_oq">any of these words</label>
+				<label for="as_eq">none of these words</label>
+			</div>
+
+			<div id="inputs">
+				<input type="text" name="as_q">
+				<input type="text" name="as_epq">
+				<input type="text" name="as_oq">
+				<input type="text" name="as_eq">
+			<button type="submit" value="advanced search">Advanced Search</button>
+			</div></section>
+
+		</form>
+
+
+		<!-- Footer -->
+		<footer>
+			<nav id="ind">
+				India
+			</nav>
+			<hr>
+			<nav>
+				<ul id="footer-left">
+				<a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+				<a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">Advertising</a>
+				<a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+				<a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">How Search Works</a>
+				</ul>
+
+				<ul id="footer-right">
+					<a href="https://policies.google.com/privacy?hl=en-IN&fg=1">Privacy</a>
+					<a href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a>
+					<a href="https://www.google.com/preferences?hl=en-IN&fg=1">Settings</a>
+				</ul>
+			</nav>
+		</footer>
+	</body>
+</html>

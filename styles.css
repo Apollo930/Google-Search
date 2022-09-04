@@ -1,0 +1,157 @@
+*{	margin: 0;
+	 padding:0;
+	 box-sizing: border-box;
+	 font-size: 1em;
+	 font-family: 'arial', sans-serif;
+	}
+
+a{
+	text-decoration: none;
+	color: #222222;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+nav{
+	display: flex;
+	justify-content: flex-end;
+	padding: 0.7em 0.8em;
+	align-items: center;
+}
+nav>ul>a{
+	display: inline;
+	padding: 0.5em;
+}
+
+#sign_in{
+	padding: 0.65em 2em;
+	border-radius: 0.3em;
+	color:white;
+	background-color: #1a73e8;
+	border: none;
+	font-size: 14px;
+}
+#sign_in:hover{
+	cursor:pointer;
+	background-color:#1560d5;
+	box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.150);
+}
+
+img{
+	max-width: 80%;
+	object-fit: scale-down;
+	max-height: auto;
+	background-color: white;
+}
+
+#search_img{
+	margin: 0 7px 0 -5px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+section{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 7vh;
+}
+
+.input_cont{
+	margin-top: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 600px;
+	height: 40px;
+	border: 1px solid gainsboro;
+	border-radius: 20px;
+}
+.input_cont:hover{
+	box-shadow: 0 0 5px 0 gainsboro;
+}
+.input_cont>img{
+	margin: 0 0px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+
+div>form>input{
+	width:425px;
+	border: none;
+	outline:none;
+}
+
+.button_cont{
+	padding-top: 50px;
+}
+
+.button_cont>button, .button_cont>a>button{
+	background-color: #f8f9fa;
+	padding: 9px 10px;
+	border-radius: 5px;
+	border: none;
+	margin: 0 10px;
+}
+.button_cont>button:hover, .button_cont>a>button:hover{
+	cursor: pointer;
+	box-shadow: 0 0 2px 0 rgb(185, 185, 185);
+}
+
+footer{
+	background-color: #f3f3f3;
+	position: fixed;
+	bottom:0;
+	width: 100vw;
+}
+
+footer>nav{
+	justify-content: space-between;
+	
+	color:#70757a;
+}
+
+#ind{
+	display: flex;
+	margin-left: 1em;
+}
+
+#footer-left{
+	display: flex;
+	margin-left: 1em;
+	justify-self: start;
+	color:#70757a;
+}
+
+#footer-right{
+	display: flex;
+	justify-content: flex-end;
+	color:#70757a;
+}
+
+hr{
+	border: 0;
+	height: 1px;
+	background-color: #60656a23;
+}
+
+footer>nav>ul>a{
+	color:#70757a;	
+}
+
+span{
+	margin-left: 220px;
+	margin-top: -15px;
+	color: #4285f4;
+}
+
+
+@media(max-width: 630px){
+	footer>nav{
+		flex-direction: column;
+	}
+	#footer-left, #footer-right{
+		justify-content: center;
+	}
+}

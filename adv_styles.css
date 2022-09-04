@@ -1,0 +1,162 @@
+*{	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-size: 1em;
+	font-family: 'arial', sans-serif;
+   }
+
+a{
+   text-decoration: none;
+   color: #222222;
+}
+a:hover{
+   text-decoration: underline;
+}
+
+nav{
+   display: flex;
+   justify-content: flex-end;
+   padding: 0.7em 0.8em;
+   align-items: center;
+}
+nav>ul>a{
+   display: inline;
+   padding: 0.5em;
+}
+
+#sign_in{
+   padding: 0.65em 2em;
+   border-radius: 0.3em;
+   color:white;
+   background-color: #1a73e8;
+   border: none;
+   font-size: 14px;
+}
+#sign_in:hover{
+   cursor:pointer;
+   background-color:#1560d5;
+   box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.150);
+}
+/* Header ends */
+
+
+img{
+   max-width: 80%;
+   object-fit: scale-down;
+   max-height: auto;
+   background-color: white;
+}
+#adv_head{
+	margin-left: 10px; 
+	color:#d93025; 
+	font-size:1.2em; 
+	padding:2em;
+}
+
+form{
+	margin-left: 2em;
+}
+
+form>div>label, input{
+	margin: 10px 30px 10px 0;
+}
+
+form>div>input{
+	height: 2em;
+}
+
+form>section>div>button{
+	background-color: #4d90fe;
+	border: none;
+	height: 30px; max-width: 120px;
+	color:white;
+	font-size: 11px;
+   margin-left: 180px;
+   border-radius: 3px;
+   font-weight: bold;
+}
+form>span{
+   margin-left: 20px;
+}
+form>section>div>button:hover{
+	box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.150);
+	background-color:#4a8afa;
+}
+
+#search-options, #inputs{
+   margin-top: 20px;
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+}
+
+#search-options>label{
+   padding: 20px;
+}
+#inputs>input{
+   margin: 13px 0;
+   height: 2em;
+   border: 1px solid #d9d9d9;
+}
+
+section{
+   display: flex;
+   flex-direction: colummn;
+}
+
+
+
+#inputs>input{
+   width: 300px;
+}
+
+/* Footer */
+
+footer{
+   background-color: #f3f3f3;
+   position: fixed;
+   bottom:0;
+   width: 100vw;
+}
+
+footer>nav{
+   justify-content: space-between;
+   color:#70757a;
+}
+
+#ind{
+   display: flex;
+   margin-left: 1em;
+}
+
+#footer-left{
+   display: flex;
+   margin-left: 1em;
+   justify-self: start;
+   color:#70757a;
+}
+
+#footer-right{
+   display: flex;
+   justify-content: flex-end;
+   color:#70757a;
+}
+
+hr{
+   border: 0;
+   height: 1px;
+   background-color: #60656a23;
+}
+
+footer>nav>ul>a{
+   color:#70757a;	
+}
+
+@media(max-width: 630px){
+   footer>nav{
+	   flex-direction: column;
+   }
+   #footer-left, #footer-right{
+	   justify-content: center;
+   }
+}
