@@ -87,7 +87,7 @@ div>form>input{
 	padding-top: 50px;
 }
 
-.button_cont>button, .button_cont>a>button{
+.button_cont>button{
 	background-color: #f8f9fa;
 	padding: 9px 10px;
 	border-radius: 5px;
